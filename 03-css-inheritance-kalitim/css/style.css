@@ -13,6 +13,11 @@ div {
 
 #birincioncelik p strong {
     color: tomato;
+    /* Alttaki etikette !important olduğu için kalıtımsal olarak bu stili uygulaması gerekirken diğerini uyguladı. */
+}
+
+strong {
+    color: purple !important;
 }
 
 .ikincioncelik {
