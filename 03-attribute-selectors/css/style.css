@@ -1,0 +1,22 @@
+* {
+    text-align: center;
+}
+
+p[title="paragraf1"] {
+    color: red;
+}
+
+p[title~="ornek"] {
+    color: blue;
+}
+
+p[title$="test"] {
+    color: purple;
+}
+img[width="26%"] {
+    border:5px solid yellow; 
+}
+
+ul{
+    list-style-type: circle;
+}
