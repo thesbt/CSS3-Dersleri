@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline-Internal-External CSS Çağırma</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        body{
+            text-align: center;
+        }
+        h3{
+            color:aqua
+        }
+    </style>
+</head>
+
+<body>
+    <p>
+        <center>Bu derste Inline (Satır içi), Internal (Dahili), External (Harici) olarak CSS çağırmayı öğreneceğim.
+        </center>
+    </p>
+    <hr>
+    <h2 style="color:red;">Bu yazı, stilini satır içinden almakta.</h2>
+    <h3>Bu yazı, stilini Internal olarak almakta.</h3>
+    <h4>Bu yazı, stilini External olarak almakta.</h4>
+    <hr>
+    <p>
+        <center><em>Notlarım: Temel olarak bir sayfaya 3 şekilde CSS dosyamızı çağırabiliriz. Inline çağırmak
+                istediğimizde kullandığımız html etiketinin ardından style verebiliriz. Internal için HTML sayfasındaki
+                head etiketlerinin arasına style etiketi altına verebiliriz. Ya da dışarıdan (local ya da URL üzerinden)
+                çağırabiliriz.</em></center>
+    </p>
+</body>
+
+</html>
