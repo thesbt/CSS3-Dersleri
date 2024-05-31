@@ -1,0 +1,24 @@
+div {
+    background-color: red;
+    color: cyan;
+}
+
+#birincioncelik {
+    background-color: darkgray;
+}
+
+#birincioncelik p {
+    color: white;
+}
+
+#birincioncelik p strong {
+    color: tomato;
+}
+
+.ikincioncelik {
+    background-color: magenta;
+}
+
+.ikincioncelik {
+    color: black;
+}
