@@ -15,24 +15,41 @@
         </center>
     </p>
     <hr>
-    <p>Bu yazı, stilini etikete verilmiş genel stilden almakta.</p>
-    <p class="ornekclass">Bu yazı, stilini class ile almakta.</p>
-    <p id="ornekid">Bu yazı, stilini id ile almakta.</p>
-    <hr>
     <h2>
-        Lorem ipsum dolor sit amet.
+        Psuedo Elements Örneği
     </h2>
     <h3>
-        Lorem ipsum dolor sit amet.
+        Bu yazının ilk harfi kırmızı ve büyük, çünkü psuedo first-letter özelliği kullanıldı.
     </h3>
-    <h4>
-        Lorem ipsum dolor sit amet.
-    </h4>
-    <p class="aciklama">Yukarıdaki h2,h3,h4 etiketleri stillerini grup halinde almakta.</p>
+    <ul class="liste">
+        <li>Bu unordered list'in marker'ları sarı.</li>
+        <li>Çünkü psuedo ::marker ile</li>
+        <li>Stil verildi.</li>
+    </ul>
+    <h2>Psuedo Class Örneği</h2>
+    <a href="#">Bu bir link</a>
+    <p>Yukarıdaki link yeşil renkte, üzerine mouse ile gelindiğinde (:hover) mor renk olup çerçeve kazanıyor. Tıklandığında (:active) mavi
+        oluyor. Daha önceden ziyaret edildiyse (:visited) kırmızı oluyor.</p>
     <hr>
     <p>
         <center>
-            <em>Notlarım: 
+            <em>
+                <p>Notlarım: Pseudo-class (psödo-sınıf): Belirli bir duruma veya duruma göre öğelere stil uygular.</p>
+
+                <p>
+                    Örneğin: :hover bir öğe üzerine gelindiğinde, :first-child bir öğenin ebeveyninin ilk çocuğu
+                    olduğunda.
+                    Pseudo-element (psödo-eleman): Belirli bir öğenin parçasına stil uygular.
+                </p>
+                <p>
+                    Örneğin: ::before bir öğenin içeriğinden önce içerik eklemek için, ::after bir öğenin içeriğinden
+                    sonra
+                    içerik eklemek için.
+                    <p>
+                        Kısacası, pseudo-class öğelerin özel durumlarına stil verir, pseudo-element ise öğelerin belirli
+                        kısımlarına stil verir.
+                    </p>
+                </p>
             </em>
         </center>
     </p>

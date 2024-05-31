@@ -1,23 +1,36 @@
 body {
     text-align: center;
 }
-p {
-    color:red;
+
+h3::first-letter {
+    color: red;
+    font-size: 35px;
 }
 
-.ornekclass {
-    color:blue;
+::marker {
+    color: yellow;
+    font-size: 25px;
 }
 
-#ornekid {
-    color:magenta;
+ul.liste {
+    display: inline-block;
+    text-align: left;
 }
 
-.aciklama {
-    color:black;
+a:link {
+    color: red;
+    text-decoration: none;
 }
 
-h2, h3, h4 {
-    color:yellow;
-    background-color: darkslategrey;
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: purple;
+    border: 5px solid purple;
+}
+
+a:active {
+    color: blue;
 }
