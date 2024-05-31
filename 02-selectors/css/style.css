@@ -1,0 +1,14 @@
+body {
+    text-align: center;
+}
+p {
+    color:red;
+}
+
+.ornekclass {
+    color:blue;
+}
+
+#ornekid {
+    color:magenta;
+}
