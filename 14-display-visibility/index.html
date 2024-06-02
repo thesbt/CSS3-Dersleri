@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Visibility Uygulamaları</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <p>
+        <center>
+            Bu derste display:none ve visibility:hidden farkını öğreneceğim.
+        </center>
+    </p>
+    <hr>
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Display ve Visibility Farkı</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <main>
+            <section>
+                <h2>
+                    Display:none uygulaması
+                </h2>
+                <div class="container">
+                    <div class="box" id="kutu1">
+                        1. Kutu
+                    </div>
+                    <div class="box" id="kutu2">
+                        2. Kutu
+                    </div>
+                    <div class="box" id="kutu3">
+                        3. Kutu
+                    </div>
+                </div>
+            </section>
+            <section>
+                <h2>
+                    Visibility:hidden uygulaması
+                </h2>
+                <div class="container">
+                    <div class="box" id="kutu4">
+                        4. Kutu
+                    </div>
+                    <div class="box" id="kutu5">
+                        5. Kutu
+                    </div>
+                    <div class="box" id="kutu6">
+                        6. Kutu
+                    </div>
+                </div>
+            </section>
+        </main>
+    </body>
+
+    </html>
+
+    <hr>
+    <footer class="notlar">
+        <em>
+            <p>
+                Notlarım: Yaptığım uygulamada aslında 6 adet kutu var. Sayfa kaynağında gözüken ama sayfanın kendisinde
+                gözükmeyen 2 ve 5 numaralı iki adet yeşil kutu var.
+            </p>
+            <p>
+                2. kutuda display:none özelliği kullandım. Bu sayede kutu görünürlüğünü kaybetti ve yerine bir sonraki
+                kutu geçti.
+            </p>
+            <p>
+                5. kutuda ise visibility:hidden özelliğini kullandım. Kutunun yeri korundu fakat görünürlüğü kalktı.
+            </p>
+        </em>
+    </footer>
+</body>
+
+</html>

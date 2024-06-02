@@ -1,0 +1,38 @@
+body {
+    text-align: center;
+}
+
+.container {
+    color: white;
+}
+
+.box {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+
+#kutu1,
+#kutu4 {
+    background-color: red;
+}
+
+#kutu2 {
+    background-color: green;
+    display: none;
+}
+
+#kutu5 {
+    background-color: green;
+    visibility: hidden;
+}
+
+#kutu3,
+#kutu6 {
+    background-color: blue;
+}
+
+.notlar p {
+    color: black;
+    text-align: center;
+}
