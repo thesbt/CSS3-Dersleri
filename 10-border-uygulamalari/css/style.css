@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    /* Daha iyi anlayabilmek için browser-default olarak gelen tüm marginleri kaldırdım. */
+}
+
+nav {
+    background-color: #DFD0B8;
+    padding: 20px;
+    border-bottom: 2px solid #DFD0B8;
+}
+
+a {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+h1{
+    color: black;
+    border-left: 5px solid white;
+    margin-left: 20px;
+    background-color: #DFD0B8;
+    padding: 20px;
+    
+}
+
+#birincialan {
+    background-color: #3C5B6F;
+    padding: 50px;
+}
+
+#ikincialan {
+    background-color: #FB957C;
+}
