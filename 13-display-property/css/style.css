@@ -1,0 +1,33 @@
+body {
+    text-align: center;
+}
+
+.block {
+    display: block;
+    width: 100%;
+    background-color: lightblue;
+    margin: 5px;
+}
+
+.inline {
+    display: inline;
+    width: 100px; /* Inline öğelerde width çalışmaz */
+    height: 100px; /* Inline öğelerde height: çalışmaz */
+    background-color: lightgreen;
+    margin: 4px;
+}
+
+.inline-block {
+    display: inline-block;
+    width: 100px;
+    height: 250px;
+    background-color: coral;
+    margin: 5px;
+    border: 1px solid red;
+    
+}
+
+.notlar p {
+    color: black;
+    text-align: center;
+}
