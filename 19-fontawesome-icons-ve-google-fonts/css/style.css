@@ -29,6 +29,7 @@ body {
     display: inline-block;
     width: calc(100% - 101px);
     text-align: right;
+    font-family: 'Roboto', sans-serif;
 }
 
 .main-nav__items {
