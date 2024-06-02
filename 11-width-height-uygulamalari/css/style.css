@@ -1,0 +1,12 @@
+.container {
+    width: 100%; /* Tam genişlik */
+    height: 200px; /* Sabit yükseklik */
+    background-color: lightgray;
+    text-align: right;
+}
+.box {
+    width: 50%; /* Yüzdesel genişlik */
+    height: 50%; /* Yüzdesel yükseklik */
+    background-color: coral;
+    text-align: left;
+}
