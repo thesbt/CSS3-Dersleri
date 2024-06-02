@@ -51,3 +51,18 @@ body {
     text-decoration: none;
     color: #fff;
 }
+
+.main-nav__item a:hover,
+.main-nav__item:hover::before {
+    color: #2E4C6D;
+}
+
+.main-nav__item a:active,
+.main-nav__item:active::before {
+    color: #fff;
+}
+
+.main-nav__item::before {
+    content: '\2022';
+    color: white;
+}
