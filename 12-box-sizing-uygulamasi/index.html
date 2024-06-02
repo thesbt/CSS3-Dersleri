@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box-Sizing Uygulamaları</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <p>
+        <center>
+            Bu derste box-sizing uygulamaları yapıp öğreneceğim.
+        </center>
+    </p>
+    <hr>
+    <main>
+        <section>
+            <div class="container1">
+                <p>
+                    Bu 2 container'in de tüm yükseklik genişlik width height değerleri birbirinin aynısı.
+                </p>
+                <p>
+                    Bu container box-sizing olarak content-box(default) kullanıyor.
+                </p>
+            </div>
+            <br>
+            <div class="container2">
+                <p>
+                    Bu 2 container'in de tüm yükseklik genişlik width height değerleri birbirinin aynısı.
+                </p>
+                <p>
+                    Bu container box-sizing olarak border-box kullanıyor.
+                </p>
+            </div>
+        </section>
+    </main>
+    <hr>
+    <footer class="notlar">
+        <em>
+            <p>
+                Notlarım: box-sizing özelliğini vermediğimizde tarayıcı varsayılanı olarak content-box değerini
+                alır.
+                Biz bu değeri border-box olarak değiştirebiliriz.
+            </p>
+            <p>
+                Sabit boyutlu bir div ele alalım. Genişliği ve
+                yüksekliği 500px*500px olsun. Ve bu div'e soldan 30px padding ve her yönden 5px border eklediğimizi
+                varsayalım. box-sizing'ini border'box yapmadığımız zaman verdiğimiz padding ve border'ın ölçülerini
+                de üzerine ekler ve bizim boyut olarak belirttiğimiz 500px'in dışına taşar.
+            </p>
+            <p>
+                box-sizing border-box olarak değiştirdiğimizde; padding ve border değerleri ile birlikte toplam
+                alanın 500px olacağını garanti altına almış oluruz.
+            </p>
+        </em>
+    </footer>
+</body>
+
+</html>
